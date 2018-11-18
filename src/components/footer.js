@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink as NL } from 'react-router-dom'
 import { Container, Nav, NavItem, NavLink } from 'reactstrap'
+import { Instagram, Twitter, Facebook } from 'react-feather'
 
 import PlaceholderModal from './placeholder-modal'
 
@@ -32,7 +33,7 @@ class Footer extends React.Component {
       >
         <Container className="d-flex align-items-end justify-content-between h-100">
           <div>
-            <ul className="list-unstyled">
+            <ul className="list-unstyled mb-0">
               <li>
                 <a
                   href="javascript:void(0)"
@@ -44,6 +45,27 @@ class Footer extends React.Component {
               </li>
               <li>&copy; {new Date().getFullYear()} Joseph Turk</li>
             </ul>
+          </div>
+
+          <div className="d-flex justify-content-between">
+            <Instagram
+              size={28}
+              className="mx-3"
+              onClick={this.toggleModal}
+              style={{ cursor: 'pointer' }}
+            />
+            <Twitter
+              size={28}
+              className="mx-3"
+              onClick={this.toggleModal}
+              style={{ cursor: 'pointer' }}
+            />
+            <Facebook
+              size={28}
+              className="mr-3 ml-2"
+              onClick={this.toggleModal}
+              style={{ cursor: 'pointer' }}
+            />
           </div>
 
           <div>
