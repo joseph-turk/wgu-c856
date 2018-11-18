@@ -86,7 +86,7 @@ class EssentialInformation extends React.Component {
             </div>
 
             <div className="col">
-              <img src={HotelImage} className="img-fluid" />
+              <img src={`.${HotelImage}`} className="img-fluid" />
             </div>
           </div>
 
@@ -108,7 +108,7 @@ class EssentialInformation extends React.Component {
 
             <div className="col">
               <img
-                src={BusImage}
+                src={`.${BusImage}`}
                 alt="Buses in Taniti City"
                 className="img-fluid"
               />
@@ -138,7 +138,7 @@ class EssentialInformation extends React.Component {
 
             <div className="col">
               <img
-                src={FoodImage}
+                src={`.${FoodImage}`}
                 alt="Food from a Tanitian restaurant"
                 className="img-fluid"
               />

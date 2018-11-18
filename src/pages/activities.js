@@ -55,7 +55,7 @@ class Activities extends React.Component {
 
             <div className="col-md-8 h-100">
               <img
-                src={BeachImage}
+                src={`.${BeachImage}`}
                 alt="White sand beach on Yellow Leaf Bay"
                 className="img-fluid"
               />
@@ -71,7 +71,7 @@ class Activities extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <img
-                src={JungleImage}
+                src={`.${JungleImage}`}
                 alt="Lush, tropical tanitian rain forest"
                 className="img-fluid"
               />
@@ -79,7 +79,7 @@ class Activities extends React.Component {
 
             <div className="col-md-4">
               <img
-                src={BoatImage}
+                src={`.${BoatImage}`}
                 alt="Fishing in Yellow Leaf Bay"
                 className="img-fluid"
               />
@@ -87,7 +87,7 @@ class Activities extends React.Component {
 
             <div className="col-md-4">
               <img
-                src={VolcanoImage}
+                src={`.${VolcanoImage}`}
                 alt="Tanitian volcano erupting"
                 className="img-fluid"
               />
@@ -137,7 +137,7 @@ class Activities extends React.Component {
 
             <div className="col-md">
               <img
-                src={ArcadeImage}
+                src={`.${ArcadeImage}`}
                 alt="Tanitian arcade"
                 className="img-fluid"
               />

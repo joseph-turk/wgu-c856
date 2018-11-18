@@ -51,7 +51,7 @@ class Home extends React.Component {
             </div>
 
             <div className="col-sm">
-              <img src={BeachImage} className="img-fluid" />
+              <img src={`.${BeachImage}`} className="img-fluid" />
             </div>
           </div>
 
@@ -59,14 +59,14 @@ class Home extends React.Component {
             <h2>Latest News</h2>
             <NewsCard
               toggleModal={this.toggleModal}
-              image={GolfImage}
+              image={`.${GolfImage}`}
               title="Golf Course Opening"
               text="The Taniti City Chamber of Commerce is thrilled to announce the opening of a brand new nine-hole golf course! This course is located just minutes from Taniti City center..."
             />
 
             <NewsCard
               toggleModal={this.toggleModal}
-              image={AirplaneImage}
+              image={`.${AirplaneImage}`}
               title="Expanded Flight Options"
               text="Starting this year, the Taniti Airport will feature even more flight options. The expansion project for the airport that began last year is coming to a close, and new flight..."
             />

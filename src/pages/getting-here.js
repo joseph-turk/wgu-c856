@@ -57,13 +57,13 @@ class GettingHere extends React.Component {
             </div>
 
             <div className="col">
-              <img src={AirplaneImage} className="img-fluid" />
+              <img src={`.${AirplaneImage}`} className="img-fluid" />
             </div>
           </div>
 
           <div className="row mt-5">
             <div className="col">
-              <img src={CruiseShipImage} className="img-fluid" />
+              <img src={`.${CruiseShipImage}`} className="img-fluid" />
             </div>
 
             <div className="col">
